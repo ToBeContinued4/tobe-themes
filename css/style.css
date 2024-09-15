@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*for the background color of the nexts div's: background-color: rgb(24, 25, 41);*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    user-select: none;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(https://images8.alphacoders.com/136/thumb-1920-1363709.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+#title {
+    color: white;
+    padding-top: 13px;
+    font-size: 22px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 300px;
+    padding-top: 13px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    transition-duration: 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(160, 165, 242);
+    transition-duration: 0.3s;
+}
+
+.main {
+    margin-top: 14%;
+    color: white;
+    max-width: 620px;
+}
+
+.main h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+.main button {
+    margin-top: 30px;
+    background-color: rgba(255,255,255,0.30);
+    color: white;
+    padding: 12px 100px;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.main button:hover {
+    background-color: rgba(162, 134, 252,0.30);
+    transition-duration: 0.3s;
+    padding: 12px 102px;
+}
