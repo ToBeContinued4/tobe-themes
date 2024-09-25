@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+#header-title {
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 24px;
+}
+
+#header-links {
+    margin-top: 30px;
+    margin-right: 300px;
+    font-size: 20px;
+}
+
+#header-links a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+#header-links a:hover {
+    transition-duration: 0.3s;
+    cursor: crosshair;
+    text-shadow: 0 0 10px #ffffff,
+                 0 0 20px #ffffff;
+}
+
+.first {
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    user-select: none;
+}
+
+#first-title {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#first-desc {
+    font-size: 25px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+#first-button {
+    margin-top: 30px;
+}
+
+#first-button button {
+    padding: 15px 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    cursor: crosshair;
+    position: relative;
+    transition: border-color 0.5s ease-in-out;
+}
+
+#first-button button:hover {
+    animation: rgb-border 2s linear infinite, rgb-glow 2s linear infinite;
+}
+
+@keyframes rgb-border {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: yellow;
+    }
+    50% {
+        border-color: lime;
+    }
+    75% {
+        border-color: cyan;
+    }
+    100% {
+        border-color: red;
+    }
+}
+
+/* Animación del resplandor */
+@keyframes rgb-glow {
+    0% {
+        box-shadow: 0 0 15px red;
+    }
+    25% {
+        box-shadow: 0 0 15px yellow;
+    }
+    50% {
+        box-shadow: 0 0 15px lime;
+    }
+    75% {
+        box-shadow: 0 0 15px cyan;
+    }
+    100% {
+        box-shadow: 0 0 15px red;
+    }
+}
+
+/* Solo para el Coming Soon */
+#coming-soon {
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 360px;
+}
