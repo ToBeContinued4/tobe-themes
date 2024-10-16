@@ -24,6 +24,11 @@ body {
     float: left;
 }
 
+#header-title a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 #header-links {
     margin-top: 30px;
     font-size: 20px;
@@ -39,7 +44,6 @@ body {
 }
 
 #header-links a:hover {
-    cursor: pointer;
     text-shadow: 0 0 10px #ffffff,
                  0 0 20px #ffffff;
 }
@@ -109,9 +113,9 @@ body {
     background-color: #292929;
     border: 3px solid transparent;
     border-radius: 10px;
-    cursor: pointer;
     position: relative;
     transition: all 0s ease-in-out;
+    cursor: pointer;
 }
 
 #first-button button:hover {
