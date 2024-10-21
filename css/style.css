@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Space for extra style */
+
+#coming-soon {
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+.noSpace {
+    margin-top: 0px;
+}
+
+/* --------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -146,7 +159,6 @@ body {
     }
 }
 
-/* Animación del resplandor */
 @keyframes rgb-glow {
     0% {
         box-shadow: 0 0 15px red;
@@ -163,12 +175,6 @@ body {
     100% {
         box-shadow: 0 0 15px red;
     }
-}
-
-#coming-soon {
-    font-size: 60px;
-    font-weight: 800;
-    margin-top: 360px;
 }
 
 .card-container {
@@ -225,10 +231,6 @@ body {
     box-shadow: 0px 0px 6px #ffffff,
                 0px 0px 10px #ffffff;
     background-color: #1C1C1C;
-}
-
-.noSpace {
-    margin-top: 0px;
 }
 
 /* CSS solo para las páginas de los temas individuales*/
